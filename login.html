@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link type="text/css" rel="stylesheet" href="login.css" />
+    <script>
+        function checkNotEmpty(field) {
+            if (field.value.length == 0) {
+                alert("비밀번호를 입력하세요!");
+                field.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="main.html">Cat lovers</a></h1>
+    </header>
+    <!--로그인-->
+    <form action=" " method="post">
+        <fieldset>
+            <div class="input">
+                <input type="text" placeholder=" 아이디" id="id"/><br />
+                <input type="text" placeholder=" 비밀번호" id="pw" />
+            </div>
+            <input type="button" onclick="checkNotEmpty(document.getElementById('pw'))" value="로그인" 
+                       style="width:425px; height:60px; display:inline-block; margin-top:30px; font-size:20px; background-color:lightskyblue; line-height:60px;"/>
+            <div class="checkbox">
+                <p><input type="checkbox"/>아이디 저장</p>
+                <hr />
+            </div>
+            <div class="link">
+                <a href="#a">아이디 찾기 | </a>
+                <a href="#a">비밀번호 찾기 | </a>
+                <a href="join.html" target="_blank">회원가입 </a>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿content { float:right; margin-right:230px; margin-top:75px; }
+content .ss { border:1px solid lightgray; width:40px; height:35px; line-height:35px; padding-left:25px; padding-right:20px; margin-bottom:10px; }
+content .ss a:hover { text-decoration:none; color:black; }
+content .ss a:link { text-decoration:none; color:black; }
+content .ss a:visited {text-decoration:none; color:black; }
+content .board{ border:1px solid lightgray; padding-left:15px; padding-right:15px;}
+content .board hr{ border:0.5px dotted; width:835px; }
+content .board #name { padding-top:5px; padding-bottom:0px; font-weight:bold; font-size:15px; margin-bottom:0px;}
+content .board #main { padding-left:30px; padding-right:10px; }
+content .board #main1 a:link { text-decoration:none; font-weight:bold; color:black; }
+content .board #main1 a:visited { text-decoration:none; font-weight:bold; color:black; }

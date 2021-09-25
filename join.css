@@ -1,0 +1,27 @@
+﻿body a:link { text-decoration:none; color:black; }
+body a:visited { text-decoration:none; color:black; }
+body a:hover { text-decoration:none; color:black; }
+header{ text-align:center; font-size:35px; }
+fieldset { text-align:center; border:none; }
+fieldset .input{display:inline;}
+fieldset .input #n1 { margin-right:390px; }
+fieldset .input #n2 { margin-right:375px; }
+fieldset .input #n3 { margin-right:320px; }
+fieldset .input #pw1 { width:430px; height:40px; display:inline; margin-top:5px; margin-bottom:10px; }
+fieldset .input #pw2 { width:430px; height:40px; display:inline; margin-top:5px; margin-bottom:10px; }
+
+fieldset .inputdata #n1 { margin-right:405px; }
+fieldset .inputdata #n2 { margin-right:375px; }
+fieldset .inputdata #name { width:430px; height:40px; display:inline; margin-top:5px; margin-bottom:10px; }
+fieldset .inputdata #year { width:132px; height:40px; margin-top:5px; margin-bottom:10px; margin-right:10px; }
+fieldset .inputdata #month { height:47px; width:132px; margin-top:5px; margin-bottom:10px; margin-right:10px; }
+fieldset .inputdata #day { height:40px; width:132px; margin-top:5px; margin-bottom:10px; }
+fieldset .gender label { margin-right:405px; }
+fieldset .gender #gender{ width:435px; height:50px; display:inline; margin-top:5px; margin-bottom:15px; }
+fieldset .email label{ margin-right:390px; }
+fieldset .email #email { width:430px; height:40px; display:inline; margin-top:5px; margin-bottom:15px; }
+fieldset .number label { margin-right:375px; }
+fieldset .number div #set{ margin-top:5px; margin-bottom:10px; display:inline; padding-left:5px; padding-right:5px; padding-bottom:13px; padding-top:14px; background-color:lightskyblue;}
+fieldset .number #number{ width:305px; height:40px; display:inline; margin-top:5px; margin-bottom:10px; margin-right:10px; }
+fieldset .number #inputnumber{ width:430px; height:40px; display:inline; margin-top:5px; margin-bottom:10px; }
+fieldset .submit { width:435px; height:60px; display:inline-block; margin-top:5px; margin-bottom:10px; line-height:60px; background-color:lightskyblue; }

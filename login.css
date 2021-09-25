@@ -1,0 +1,12 @@
+﻿body a:link { text-decoration:none; color:black; }
+body a:visited { text-decoration:none; color:black; }
+body a:hover { text-decoration:none; color:black; }
+header{ text-align:center; font-size:35px; }
+fieldset { text-align:center; border:none;  }
+/*fieldset .input label { display:inline; width:10px; height:30px; font-size:25px; color:black; font-family:Dotum; font-weight:bold; padding-right:15px; }*/
+fieldset .input #id { width:420px; height:50px; display:inline; margin-bottom:15px; }
+fieldset .input #pw { width:420px; height:50px; display:inline; }
+fieldset .checkbox { font-size:13px; margin-top:10px; }
+fieldset .checkbox p { margin-right:340px; margin-bottom:20px;}
+fieldset .checkbox hr { width:420px; }
+fieldset .link { font-size:12px; color:black; }
